@@ -1,0 +1,147 @@
+.pp{
+    background-color: white;
+    box-shadow: 1px 1px 8px 0 black; 
+    margin-top: 10px;
+}
+.logo{
+    height: 100px;
+}
+.logo img{
+    margin-top: 2px;
+    margin-left: 10px;
+    height: 100%;
+    object-fit: cover;
+}
+.menu{
+    padding: 0;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+.menu li{
+    display: flex;
+}
+.menu a{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    padding: 35px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: white;
+    background-color: #124e8d;
+    text-decoration: none;
+}
+.img{
+    width: 100%;
+    height: 690px;
+    padding: 0;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer{
+    background-color: #124e8d;
+    color: rgb(192, 191, 191);
+    text-align: center;
+    height: 70px;
+    font-size: 30px;
+    padding: 11px;
+    font-weight: bold;
+}
+.footer:hover{
+    color: white;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.logo img{
+        margin-top: 1PX;
+    }
+    .menu a{
+        font-size: 18px;
+        padding: 37px;
+    }
+    .img{
+        height: 650px;
+    }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo{
+        height: 67px;
+    }
+
+    .menu a{
+        font-size: 15px;
+        padding: 22px;
+    }
+    .img{
+        height: 620px;
+    }
+    .footer{
+        height: 60px;
+        font-size: 25px;
+        padding: 8px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    .logo{
+        height: 57px;
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    .menu a{
+        font-size: 13px;
+        padding: 18px;
+    }
+    .img{
+        height: 500px;
+    }
+    .footer{
+        height: 45px;
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .logo{
+        height: 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+    }
+    .menu a{
+        font-size: 11px;
+        padding: 15px;
+    }
+    .img{
+        height: 400px;
+    }
+    .footer{
+        height: 38px;
+        font-size: 14px;
+        padding: 8px;
+    }
+}
