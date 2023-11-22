@@ -1,2 +1,2 @@
-# Sna_Caf--Brand
+# Sna_Cafe-Brand
 HTML, CSS, JavaScript, AOS
